@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 500px;
+    margin-top: 50px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul  li a {
+    color: rgb(59, 59, 59);
+    transition: 0.3s;
+
+}
+
+nav ul  li a:hover {
+    color: rgb(114, 114, 114);
+}
+
+
+.container-main {
+    height: 100%;
+    max-height: 430px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.img-1-banner  {
+    height: 100%;
+}
+.img-1-banner img {
+    width:100%;
+    max-width: 1000px;
+
+}
+
+
+.texto-lado {
+    height: 535px;
+    padding: 20px;
+    width: 340px;
+    background-color: #00011a;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    
+}
+
+.borda {
+    border: 1px solid gray;
+}
+
+.texto-lado h1 {
+    color: #f19e03;
+}
+
+.texto-lado h2 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+.texto-lado h3 {
+    font-size: 17px;
+    width: 350px;
+    color: gray;
+}
+
+.container-section2 {
+    display: flex;
+    margin-left:150px;
+    gap: 300px;
+}
+
+.letra-esquerda h1{
+    font-size: 65px;
+}
+
+
+.do-outro-lado h3{
+    margin-bottom: 50px;
+
+}
+
+.do-outro-lado button {
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 15px 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.do-outro-lado button:hover {
+    padding: 15px 50px;
+}
+
+#logo {
+    cursor: pointer;
+}
+
+.container-ultima-section {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 50px;
+    gap: 100px;
+    
+}
+.cards {
+    display: flex;
+}
+
+
+.letras-card  {
+    margin-left: 20px;
+}
+.letras-card h1 {
+    color: gray;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.letras-card h2 {
+    margin-bottom: 20px;
+
+
+}
+
+.img-card  img{
+    width: 110px;
+
+}
+
+.letras-card h3 {
+    color: gray;
+    font-size: 15px;
+}
